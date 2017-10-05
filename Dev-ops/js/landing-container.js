@@ -1,10 +1,5 @@
-
-$(document).ready(function(){
-		
-		 $('#datetimepicker1').datetimepicker();
+$(document).ready(function() {
+    //  $('#datetimepicker1').datetimepicker();
+    $(".container").load("/templates/studentform.html");
 
 });
-            
-               
-           
-        
