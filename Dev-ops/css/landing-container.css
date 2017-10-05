@@ -67,9 +67,10 @@ a, a:hover, a:focus {
 #sidebar {
   min-width: 250px;
   max-width: 250px;
-  background: #cccccc;
+  background: #009fda;
   color: #6d7fcc;
   transition: all 0.3s;
+  min-height:143%;
 }
 
 #sidebar.active {
@@ -94,6 +95,7 @@ a, a:hover, a:focus {
     padding: 10px;
     font-size: 1.1em;
     display: block;
+    color:#fff;
 }
 #sidebar ul li a:hover {
     color: #7386D5;
@@ -101,7 +103,7 @@ a, a:hover, a:focus {
 }
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
-    color: #fff;
+    color: #286090;
     background: #c1c1c1;
 }
 
@@ -162,6 +164,31 @@ a.article, a.article:hover {
     transition: all 0.3s;
 }
 
+/*
+----------------------------------------------------------
+    CONTAINER STYLE
+---------------------------------------------------*/
+.alignmentC{
+    width:70%;
+    margin:0 auto;
+}
+form .input-group{
+    margin-top:15px;
+}
+.wrapper{
+    overflow-y: scroll;
+    height: calc(100vh - 109px);
+}
+form .col-sm-6{
+    padding-left:0;
+    padding-right:0;
+}
+.col-pad-right{
+    padding-right:15px!important;
+}
+form .input-group-addon{
+    background-color:#eee;
+}
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
