@@ -15,10 +15,6 @@
         box-shadow: none;
     }
     
-    #content .btn-info {
-        background-color: #ccc;
-    }
-    
     .edit-logout {
         position: absolute;
         right: 0;
