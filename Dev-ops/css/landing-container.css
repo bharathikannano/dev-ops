@@ -1,26 +1,31 @@
     .login-edit .glyphicon-log-out:before {
         padding: 5px;
     }
-    
+
     .login-edit .navbar-right {
         margin: 0;
     }
-    
+    .login-edit footer{
+        z-index: 5;
+    }
     .login-edit .navbar {
         padding: 0;
         margin: 0;
     }
-    
+  .EP-details{
+    padding-bottom: 50px;
+  }
+
     #content .navbar {
         box-shadow: none;
     }
-    
+
     .edit-logout {
         position: absolute;
         right: 0;
         top: 5px;
     }
-    
+
     p {
         font-family: 'Poppins', sans-serif;
         font-size: 1.1em;
@@ -28,7 +33,7 @@
         line-height: 1.7em;
         color: #999;
     }
-    
+
     a,
     a:hover,
     a:focus {
@@ -36,7 +41,7 @@
         text-decoration: none;
         transition: all 0.3s;
     }
-    
+
     .navbar {
         padding: 15px 10px;
         background: #fff;
@@ -45,13 +50,13 @@
         margin-bottom: 40px;
         box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
     }
-    
+
     .navbar-btn {
         box-shadow: none;
         outline: none !important;
         border: none;
     }
-    
+
     .line {
         width: 100%;
         height: 1px;
@@ -61,12 +66,12 @@
     /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
-    
+
     .wrapper {
         display: flex;
         align-items: stretch;
     }
-    
+
     #sidebar {
         min-width: 250px;
         max-width: 250px;
@@ -75,47 +80,47 @@
         transition: all 0.3s;
         min-height: 143%;
     }
-    
+
     #sidebar.active {
         margin-left: -250px;
     }
-    
+
     #sidebar .sidebar-header {
         padding: 20px;
         background: #6d7fcc;
     }
-    
+
     #sidebar ul.components {
         padding: 70px 0;
     }
-    
+
     #sidebar ul p {
         color: #fff;
         padding: 10px;
     }
-    
+
     #sidebar ul li a {
         padding: 10px;
         font-size: 1.1em;
         display: block;
         color: #fff;
     }
-    
+
     #sidebar ul li a:hover {
         color: #7386D5;
         background: #fff;
     }
-    
+
     #sidebar ul li.active>a,
     a[aria-expanded="true"] {
         color: #286090;
         background: #c1c1c1;
     }
-    
+
     a[data-toggle="collapse"] {
         position: relative;
     }
-    
+
     a[aria-expanded="false"]::before,
     a[aria-expanded="true"]::before {
         content: '\e259';
@@ -125,21 +130,21 @@
         font-family: 'Glyphicons Halflings';
         font-size: 0.6em;
     }
-    
+
     a[aria-expanded="true"]::before {
         content: '\e260';
     }
-    
+
     ul ul a {
         font-size: 0.9em !important;
         padding-left: 30px !important;
         background: #ccc;
     }
-    
+
     ul.CTAs {
         padding: 20px;
     }
-    
+
     ul.CTAs a {
         text-align: center;
         font-size: 0.9em !important;
@@ -147,12 +152,12 @@
         border-radius: 5px;
         margin-bottom: 5px;
     }
-    
+
     a.download {
         background: #fff;
         color: #7386D5;
     }
-    
+
     a.article,
     a.article:hover {
         background: #6d7fcc !important;
@@ -161,7 +166,7 @@
     /* ---------------------------------------------------
     CONTENT STYLE
 ----------------------------------------------------- */
-    
+
     #content {
         padding: 20px;
         min-height: 100vh;
@@ -171,37 +176,37 @@
 ----------------------------------------------------------
     CONTAINER STYLE
 ---------------------------------------------------*/
-    
+
     .alignmentC {
         width: 70%;
         margin: 0 auto;
     }
-    
+
     form .input-group {
         margin-top: 15px;
     }
-    
+
     .wrapper {
         overflow-y: scroll;
-        height: calc(100vh - 109px);
+        /*height: calc(100vh - 109px);*/
     }
-    
+
     form .col-sm-6 {
         padding-left: 0;
         padding-right: 0;
     }
-    
+
     form .col-pad-right {
         padding-right: 15px;
     }
-    
+
     form .input-group-addon {
         background-color: #eee;
     }
     /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
-    
+
     @media (max-width: 768px) {
         #sidebar {
             margin-left: -250px;
@@ -213,7 +218,7 @@
             display: none;
         }
     }
-    
+
     @media only screen and (max-width: 768px) {
         .alignmentC {
             width: 90%;
